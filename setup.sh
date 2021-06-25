@@ -1,17 +1,5 @@
 #!/usr/bin/env bash
 
-##########################################################################
-# Automated Installer Program For I2C 16x2 LCD Screens
-#
-# Cloned and adapted from: Ryanteck LTD
-#
-# Author: Matthew Timmons-Brown (the-raspberry-pi-guy)
-# Contributors: https://github.com/the-raspberry-pi-guy/lcd/contributors
-#
-# Repo: https://github.com/the-raspberry-pi-guy/lcd
-##########################################################################
-
-
 apt_install () {
   echo "####### APT #######"
   apt update && apt install python-smbus i2c-tools -y
